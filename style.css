@@ -7,8 +7,8 @@
 body {
     padding: 24px;
     height: 100vh;
-    font-family: 'Montserrat Bold', sans-serif;
-    background-color: rgb(255, 208, 224);
+    font-family: 'Montserrat';
+    background-color: #1b81bc;
 }
 
 .flex-center {
@@ -30,13 +30,18 @@ main {
 }
 
 p{
-    color: black;
+    color: #1b81bc;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+button {
     font-size: 1.6rem;
     padding: 16px 24px;
     border: none;
     border-radius: 48px;
-    color:mediumorchid;
-    background-color: #ff94d4;
+    color:rgb(66, 31, 74);
+    background-color: #b4cedc;
     cursor: pointer;
     user-select: none;
 }
